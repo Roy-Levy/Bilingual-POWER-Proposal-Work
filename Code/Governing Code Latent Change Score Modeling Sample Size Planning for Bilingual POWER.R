@@ -60,7 +60,7 @@ n.reps = 500
 
 
 # Define the sample sizes to examine ---------------------
-sample.sizes.to.examine = seq(50, 150, 5)
+sample.sizes.to.examine = seq(70, 150, 5)
 
 # Set up the table to save the results for the power analyses ---------------------
 power.test.of.mean.of.slope.for.CE <- rep(NA, length(sample.sizes.to.examine))
